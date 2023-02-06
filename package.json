@@ -11,7 +11,7 @@
     "dev": "next dev",
     "check": "tsc --noEmit",
     "test": "jest",
-    "test:playwright": "npx -- playwright testdewdewferree32ewdwed3dwededqwdqw"
+    "test:playwright": "npx -- playwright testdewdewferree32ewdwed3dwededqwdqwscsdcds"
   },
   "dependencies": {
     "@wundergraph/nextjs": "^0.8.7",
