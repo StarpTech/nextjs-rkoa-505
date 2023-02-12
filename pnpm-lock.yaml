@@ -23,7 +23,7 @@ specifiers:
   wait-on: ^6.0.1
 
 dependencies:
-  '@wundergraph/nextjs': 0.8.7_vev7ofmubjoajrlth3saafrf4u
+  '@wundergraph/nextjs': 0.8.8_vev7ofmubjoajrlth3saafrf4u
   '@wundergraph/sdk': 0.134.0
   graphql: 16.6.0
   next: 13.1.6_biqbaboplfbrettd7655fr4n2y
@@ -36,7 +36,7 @@ devDependencies:
   '@playwright/test': 1.30.0
   '@types/node': 17.0.45
   '@types/node-fetch': 2.6.2
-  '@types/react': 18.0.27
+  '@types/react': 18.0.28
   jest: 29.4.2_2263m44mchjafa7bz7l52hbcpa
   node-fetch: 2.6.9
   npm-run-all: 4.1.5
@@ -534,7 +534,7 @@ packages:
       '@types/node': 17.0.45
       ansi-escapes: 4.3.2
       chalk: 4.1.2
-      ci-info: 3.7.1
+      ci-info: 3.8.0
       exit: 0.1.2
       graceful-fs: 4.2.10
       jest-changed-files: 29.4.2
@@ -1136,8 +1136,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react/18.0.27:
-    resolution: {integrity: sha512-3vtRKHgVxu3Jp9t718R9BuzoD4NcQ8YJ5XRzsSKxNDiDonD2MXIT1TmSkenxuCycZJoQT5d2vE8LwWJxBC1gmA==}
+  /@types/react/18.0.28:
+    resolution: {integrity: sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -1203,8 +1203,8 @@ packages:
     resolution: {integrity: sha512-BEO6al7BYqcnfX15W2cnGR+Q566ACXAT9UQykORCWW80lmkpWsnEob6zJS1ZVBKsSJC8+7vJkHwlp+lXG1UCdw==}
     dev: false
 
-  /@wundergraph/nextjs/0.8.7_vev7ofmubjoajrlth3saafrf4u:
-    resolution: {integrity: sha512-ETxRUlPN47QX+KPCMRc2gfjhJhJujhifZG4ZLo3TlCHRQKb8ciefGvXVZiJMav+O2e7xXUurOhuFxvjFnAI4CQ==}
+  /@wundergraph/nextjs/0.8.8_vev7ofmubjoajrlth3saafrf4u:
+    resolution: {integrity: sha512-19pdgXpHcmZbtQAoXin53moqhbP3O3Pw6Dc+VZ6gMbBiXQxdl921s7xepFwt/CqVkydYiDmiUuT3TDiekAdcuA==}
     peerDependencies:
       '@wundergraph/sdk': '>=0.91.0'
       next: ^12.1.0 || ^13.0.0
@@ -1212,9 +1212,9 @@ packages:
       react-dom: ^16.8.0 || ^17.0.2 || ^18.0.0
       swr: ^2.0.0
     dependencies:
-      '@wundergraph/protobuf': 0.104.0
+      '@wundergraph/protobuf': 0.105.0
       '@wundergraph/sdk': 0.134.0
-      '@wundergraph/swr': 0.12.4_paxh45zgzuhpspvv46bhyfh6yi
+      '@wundergraph/swr': 0.12.5_paxh45zgzuhpspvv46bhyfh6yi
       handlebars: 4.7.7
       next: 13.1.6_biqbaboplfbrettd7655fr4n2y
       object-hash: 2.2.0
@@ -1232,6 +1232,14 @@ packages:
       ts-proto: 1.139.0
     dev: false
 
+  /@wundergraph/protobuf/0.105.0:
+    resolution: {integrity: sha512-ObjNqEUXK65Nqv0oSmwYD1DYPjXkhGghIY51KDLNJ/1p8o3HkhpdqeuJhRUHMAagnrIq67R7CelYMXqasYpS2w==}
+    dependencies:
+      long: 5.2.1
+      protobufjs: 6.11.3
+      ts-proto: 1.139.0
+    dev: false
+
   /@wundergraph/sdk/0.134.0:
     resolution: {integrity: sha512-cckqxeHeb53g7S1bcFqWRmsJ+iKcapc1Pk5U3hHcBGyp1BPf3oRM1zforIkVVTgVU0ZjAtYsjaHUm+Js28GEAg==}
     hasBin: true
@@ -1241,13 +1249,13 @@ packages:
       '@prisma/generator-helper': 3.15.2
       '@web-std/fetch': 4.1.0
       '@wundergraph/protobuf': 0.104.0
-      '@wundergraph/wunderctl': 0.130.0
+      '@wundergraph/wunderctl': 0.131.0
       axios: 0.26.1
       axios-retry: 3.4.0
       close-with-grace: 1.1.0
       cross-fetch: 3.1.5
       execa: 5.1.1
-      fastify: 4.12.0
+      fastify: 4.13.0
       fastify-plugin: 4.5.0
       graphql: 16.6.0
       graphql-helix: 1.13.0_graphql@16.6.0
@@ -1259,24 +1267,24 @@ packages:
       long: 5.2.1
       object-hash: 2.2.0
       openapi-types: 10.0.0
-      pino: 8.9.0
-      pino-pretty: 9.1.1
+      pino: 8.10.0
+      pino-pretty: 9.2.0
       postman-collection: 4.1.7
       prettier: 2.8.4
       protobufjs: 6.11.3
       swagger2openapi: 7.0.8
       terminate: 2.6.1
       ts-retry-promise: 0.7.0
-      zod: 3.20.3
-      zod-to-json-schema: 3.20.2_zod@3.20.3
+      zod: 3.20.6
+      zod-to-json-schema: 3.20.3_zod@3.20.6
     transitivePeerDependencies:
       - debug
       - encoding
       - supports-color
     dev: false
 
-  /@wundergraph/swr/0.12.4_paxh45zgzuhpspvv46bhyfh6yi:
-    resolution: {integrity: sha512-dVJa7kaZmEH/nxgAl2JNj4VFXP4UEereov/Kwt7BH1Kjf/Ba2TbHJKlpaJ+4GNsMKME4s5/O2BWQDgfOuFnKOw==}
+  /@wundergraph/swr/0.12.5_paxh45zgzuhpspvv46bhyfh6yi:
+    resolution: {integrity: sha512-3I+iA7/zSq2dVE5u+XGs7YE/iu/oxYFix52o5mt7jdBwroPTc39Zmb+2n/yy90/YWnHqrdb8BD5ThiOLrdQ2yQ==}
     peerDependencies:
       '@wundergraph/sdk': '>=0.110.0'
       react: ^16.8.0 || ^17.0.2 || ^18.0.0
@@ -1290,8 +1298,8 @@ packages:
       swr: 2.0.3_react@18.2.0
     dev: false
 
-  /@wundergraph/wunderctl/0.130.0:
-    resolution: {integrity: sha512-V0GZiowWz9taw3clBo7DtvvlnB+29VIFFk4qtbnR1sysJFIqmzEc1eYUWIYJTP/S8vRsLcFqxHymJexX6RvsSw==}
+  /@wundergraph/wunderctl/0.131.0:
+    resolution: {integrity: sha512-qi1X3UHs4EA6R6I8KlBlkyYHb+eOyOtvQeQ/7GYVWO7ZEoj2a0a8dbk8oJAjVnXa9uP0DBjbknWWZhCbkg+9+g==}
     hasBin: true
     requiresBuild: true
     dependencies:
@@ -1427,8 +1435,8 @@ packages:
     resolution: {integrity: sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==}
     engines: {node: '>= 0.4'}
 
-  /avvio/8.2.0:
-    resolution: {integrity: sha512-bbCQdg7bpEv6kGH41RO/3B2/GMMmJSo2iBK+X8AWN9mujtfUipMDfIjsgHCfpnKqoGEQrrmCDKSa5OQ19+fDmg==}
+  /avvio/8.2.1:
+    resolution: {integrity: sha512-TAlMYvOuwGyLK3PfBb5WKBXZmXz2fVCgv23d6zZFdle/q3gPjmxBaeuC0pY0Dzs5PWMSgfqqEZkrye19GlDTgw==}
     dependencies:
       archy: 1.0.0
       debug: 4.3.4
@@ -1572,7 +1580,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001451
-      electron-to-chromium: 1.4.289
+      electron-to-chromium: 1.4.295
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
     dev: true
@@ -1675,8 +1683,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /ci-info/3.7.1:
-    resolution: {integrity: sha512-4jYS4MOAaCIStSRwiuxc4B8MYhIe676yO1sYGzARnjXkWpmzZMMYxY6zu8WYWDhSuth5zhrQ1rhNSibyyvv4/w==}
+  /ci-info/3.8.0:
+    resolution: {integrity: sha512-eXTggHWSooYhq49F2opQhuHWgzucfF2YgODK4e1566GQs5BIfP30B0oenwBJHfWxAs2fyPB1s7Mg949zLf61Yw==}
     engines: {node: '>=8'}
     dev: true
 
@@ -1871,8 +1879,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /define-properties/1.1.4:
-    resolution: {integrity: sha512-uckOqKcfaVvtBdsVkdPv3XjveQJsNQqmhXgRi8uhvWWuPYZCNlzT8qAyblUgNoXdHdjMTzAqeGjAoli8f+bzPA==}
+  /define-properties/1.2.0:
+    resolution: {integrity: sha512-xvqAVKGfT1+UAvPwKTVw/njhdQ8ZhXK4lI0bCIuCMrp2up9nPnaDftrLtmpTazqd1o+UY4zgzU+avtMbDP+ldA==}
     engines: {node: '>= 0.4'}
     dependencies:
       has-property-descriptors: 1.0.0
@@ -1915,8 +1923,8 @@ packages:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
     dev: false
 
-  /electron-to-chromium/1.4.289:
-    resolution: {integrity: sha512-relLdMfPBxqGCxy7Gyfm1HcbRPcFUJdlgnCPVgQ23sr1TvUrRJz0/QPoGP0+x41wOVSTN/Wi3w6YDgHiHJGOzg==}
+  /electron-to-chromium/1.4.295:
+    resolution: {integrity: sha512-lEO94zqf1bDA3aepxwnWoHUjA8sZ+2owgcSZjYQy0+uOSEclJX0VieZC+r+wLpSxUHRd6gG32znTWmr+5iGzFw==}
     dev: true
 
   /emittery/0.13.1:
@@ -1957,7 +1965,7 @@ packages:
       has-property-descriptors: 1.0.0
       has-proto: 1.0.1
       has-symbols: 1.0.3
-      internal-slot: 1.0.4
+      internal-slot: 1.0.5
       is-array-buffer: 3.0.1
       is-callable: 1.2.7
       is-negative-zero: 2.0.2
@@ -2173,18 +2181,18 @@ packages:
     resolution: {integrity: sha512-79ak0JxddO0utAXAQ5ccKhvs6vX2MGyHHMMsmZkBANrq3hXc1CHzvNPHOcvTsVMEPl5I+NT+RO4YKMGehOfSIg==}
     dev: false
 
-  /fastify/4.12.0:
-    resolution: {integrity: sha512-Hh2GCsOCqnOuewWSvqXlpq5V/9VA+/JkVoooQWUhrU6gryO9+/UGOoF/dprGcKSDxkM/9TkMXSffYp8eA/YhYQ==}
+  /fastify/4.13.0:
+    resolution: {integrity: sha512-p9ibdFWH3pZ7KPgmfHPKGUy2W4EWU2TEpwlcu58w4CwGyU3ARFfh2kwq6zpZ5W2ZGVbufi4tZbqHIHAlX/9Z/A==}
     dependencies:
       '@fastify/ajv-compiler': 3.5.0
       '@fastify/error': 3.2.0
       '@fastify/fast-json-stringify-compiler': 4.2.0
       abstract-logging: 2.0.1
-      avvio: 8.2.0
+      avvio: 8.2.1
       fast-content-type-parse: 1.0.0
       find-my-way: 7.4.0
       light-my-request: 5.8.0
-      pino: 8.9.0
+      pino: 8.10.0
       process-warning: 2.1.0
       proxy-addr: 2.0.7
       rfdc: 1.3.0
@@ -2323,7 +2331,7 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.2
-      define-properties: 1.1.4
+      define-properties: 1.2.0
       es-abstract: 1.21.1
       functions-have-names: 1.2.3
     dev: true
@@ -2415,7 +2423,7 @@ packages:
     resolution: {integrity: sha512-sFdI5LyBiNTHjRd7cGPWapiHWMOXKyuBNX/cWJ3NfzrZQVa8GI/8cofCl74AOVqq9W5kNmguTIzJ/1s2gyI9wA==}
     engines: {node: '>= 0.4'}
     dependencies:
-      define-properties: 1.1.4
+      define-properties: 1.2.0
     dev: true
 
   /gopd/1.0.1:
@@ -2445,7 +2453,7 @@ packages:
     engines: {node: '>=0.4.7'}
     hasBin: true
     dependencies:
-      minimist: 1.2.7
+      minimist: 1.2.8
       neo-async: 2.6.2
       source-map: 0.6.1
       wordwrap: 1.0.0
@@ -2570,8 +2578,8 @@ packages:
   /inherits/2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
-  /internal-slot/1.0.4:
-    resolution: {integrity: sha512-tA8URYccNzMo94s5MQZgH8NB/XTa6HsOo0MLfXTKKEnHVVdegzaQoFZ7Jp44bdvLvY2waT5dc+j5ICEswhi7UQ==}
+  /internal-slot/1.0.5:
+    resolution: {integrity: sha512-Y+R5hJrzs52QCG2laLn4udYVnxsfny9CpOhNhUvk/SSSVyF6T27FzRbF0sroPidSu3X8oEAkOn2K804mjpt6UQ==}
     engines: {node: '>= 0.4'}
     dependencies:
       get-intrinsic: 1.2.0
@@ -2890,7 +2898,7 @@ packages:
       '@types/node': 17.0.45
       babel-jest: 29.4.2_@babel+core@7.20.12
       chalk: 4.1.2
-      ci-info: 3.7.1
+      ci-info: 3.8.0
       deepmerge: 4.3.0
       glob: 7.2.3
       graceful-fs: 4.2.10
@@ -3159,7 +3167,7 @@ packages:
       '@jest/types': 29.4.2
       '@types/node': 17.0.45
       chalk: 4.1.2
-      ci-info: 3.7.1
+      ci-info: 3.8.0
       graceful-fs: 4.2.10
       picomatch: 2.3.1
     dev: true
@@ -3220,8 +3228,8 @@ packages:
       - ts-node
     dev: true
 
-  /joi/17.7.0:
-    resolution: {integrity: sha512-1/ugc8djfn93rTE3WRKdCzGGt/EtiYKxITMO4Wiv6q5JL1gl9ePt4kBsl1S499nbosspfctIQTpYIhSmHA3WAg==}
+  /joi/17.7.1:
+    resolution: {integrity: sha512-teoLhIvWE298R6AeJywcjR4sX2hHjB3/xJX4qPjg+gTg+c0mzUDsziYlqPmLomq9gVsfaMcgPaGc7VxtD/9StA==}
     dependencies:
       '@hapi/hoek': 9.3.0
       '@hapi/topo': 5.1.0
@@ -3282,7 +3290,7 @@ packages:
       glob-promise: 4.2.2_glob@7.2.3
       is-glob: 4.0.3
       lodash: 4.17.21
-      minimist: 1.2.7
+      minimist: 1.2.8
       mkdirp: 1.0.4
       mz: 2.7.0
       prettier: 2.8.4
@@ -3522,8 +3530,8 @@ packages:
       kind-of: 6.0.3
     dev: true
 
-  /minimist/1.2.7:
-    resolution: {integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==}
+  /minimist/1.2.8:
+    resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
 
   /minipass/3.3.6:
     resolution: {integrity: sha512-DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==}
@@ -3794,7 +3802,7 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.2
-      define-properties: 1.1.4
+      define-properties: 1.2.0
       has-symbols: 1.0.3
       object-keys: 1.1.1
     dev: true
@@ -3956,8 +3964,8 @@ packages:
       split2: 4.1.0
     dev: false
 
-  /pino-pretty/9.1.1:
-    resolution: {integrity: sha512-iJrnjgR4FWQIXZkUF48oNgoRI9BpyMhaEmihonHeCnZ6F50ZHAS4YGfGBT/ZVNsPmd+hzkIPGzjKdY08+/yAXw==}
+  /pino-pretty/9.2.0:
+    resolution: {integrity: sha512-7CeszmFqrUD08+JvtYcFXowNE7duFlE1XScmR41qTMbwQOhn7gijYYrRb5udH+z8xq4+A8vN8rQNYVPCTfzmGw==}
     hasBin: true
     dependencies:
       colorette: 2.0.19
@@ -3966,7 +3974,7 @@ packages:
       fast-safe-stringify: 2.1.1
       help-me: 4.2.0
       joycon: 3.1.1
-      minimist: 1.2.7
+      minimist: 1.2.8
       on-exit-leak-free: 2.1.0
       pino-abstract-transport: 1.0.0
       pump: 3.0.0
@@ -3980,8 +3988,8 @@ packages:
     resolution: {integrity: sha512-KO0m2f1HkrPe9S0ldjx7za9BJjeHqBku5Ch8JyxETxT8dEFGz1PwgrHaOQupVYitpzbFSYm7nnljxD8dik2c+g==}
     dev: false
 
-  /pino/8.9.0:
-    resolution: {integrity: sha512-/x9qSrFW4wh+7OL5bLIbfl06aK/8yCSIldhD3VmVGiVYWSdFFpXvJh/4xWKENs+DhG1VkJnnpWxMF6fZ2zGXeg==}
+  /pino/8.10.0:
+    resolution: {integrity: sha512-ODfIe+giJtQGsvNAEj5/sHHpL3TFBg161JBH4W62Hc0l0PJjsDFD1R7meLI4PZ2aoHDJznxFNShkJcaG/qJToQ==}
     hasBin: true
     dependencies:
       atomic-sleep: 1.0.0
@@ -4245,7 +4253,7 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.2
-      define-properties: 1.1.4
+      define-properties: 1.2.0
       functions-have-names: 1.2.3
     dev: true
 
@@ -4545,7 +4553,7 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.2
-      define-properties: 1.1.4
+      define-properties: 1.2.0
       es-abstract: 1.21.1
     dev: true
 
@@ -4553,7 +4561,7 @@ packages:
     resolution: {integrity: sha512-JySq+4mrPf9EsDBEDYMOb/lM7XQLulwg5R/m1r0PXEFqrV0qHvl58sdTilSXtKOflCsK2E8jxf+GKC0T07RWwQ==}
     dependencies:
       call-bind: 1.0.2
-      define-properties: 1.1.4
+      define-properties: 1.2.0
       es-abstract: 1.21.1
     dev: true
 
@@ -4561,7 +4569,7 @@ packages:
     resolution: {integrity: sha512-omqjMDaY92pbn5HOX7f9IccLA+U1tA9GvtU4JrodiXFfYB7jPzzHpRzpglLAjtUV6bB557zwClJezTqnAiYnQA==}
     dependencies:
       call-bind: 1.0.2
-      define-properties: 1.1.4
+      define-properties: 1.2.0
       es-abstract: 1.21.1
     dev: true
 
@@ -5028,9 +5036,9 @@ packages:
     hasBin: true
     dependencies:
       axios: 0.25.0
-      joi: 17.7.0
+      joi: 17.7.1
       lodash: 4.17.21
-      minimist: 1.2.7
+      minimist: 1.2.8
       rxjs: 7.8.0
     transitivePeerDependencies:
       - debug
@@ -5169,14 +5177,14 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod-to-json-schema/3.20.2_zod@3.20.3:
-    resolution: {integrity: sha512-qka3UAXmVXD8z5SHkRU89UyHp8JHJW7zc8RQCpt7QloJOn6uijwkjUm8o+M/cF1IysmKc5gxac/QeDikaQMdzQ==}
+  /zod-to-json-schema/3.20.3_zod@3.20.6:
+    resolution: {integrity: sha512-/Q3wnyxAfCt94ZcrGiXXoiAfRqasxl9CX64LZ9fj+4dKH68zulUtU0uk1WMxQPfAxQ0ZI70dKzcoW7hHj+DwSQ==}
     peerDependencies:
       zod: ^3.20.0
     dependencies:
-      zod: 3.20.3
+      zod: 3.20.6
     dev: false
 
-  /zod/3.20.3:
-    resolution: {integrity: sha512-+MLeeUcLTlnzVo5xDn9+LVN9oX4esvgZ7qfZczBN+YVUvZBafIrPPVyG2WdjMWU2Qkb2ZAh2M8lpqf1wIoGqJQ==}
+  /zod/3.20.6:
+    resolution: {integrity: sha512-oyu0m54SGCtzh6EClBVqDDlAYRz4jrVtKwQ7ZnsEmMI9HnzuZFj8QFwAY1M5uniIYACdGvv0PBWPF2kO0aNofA==}
     dev: false
