@@ -8,7 +8,7 @@ This example demonstrates how to use WunderGraph with Next.js. We are going to m
 2. Install the dependencies andwedewd  dddwedewdeewdewdewqwdqqwdddddwdwqdqwwdqwdwqwddewdwedededewdddddddcsfewfefewcsddwedwecdweddewdewdewdewdwdewdxddewwedweddwedwedewdewwedewdewdampqwswedewdewqswqqwdqwdqdle in one qwdewdewedwedwewdqwwqd:ddewdewdewd
 
 ```shelldwedewdewdqwdqwddqddewferfeferdweqwdewdewddwdewdweewefffwedwedewfewfewwdqwdqwdewdewddewddwedwed
-npm install && npm startfefewwfwdewdewdwefwedqdqddwqdwqqdqwdwdqwdqddqdqwdqwdqwdqwffewfwed
+npm install && npm 
 ```
 
 After a while, a new browser tab will open,
