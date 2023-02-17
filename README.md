@@ -6,7 +6,7 @@ This example demonstrates how to use WunderGraph with Next.js. We are going to m
 
 1. Copy the `.env.example` file to `.env` anddqwddwedwedew fil.dqwdwefewfedewdewqwdwqwedewdew
 2. Install the dependencies and run ddd dqdqwdwweffweedwedweddewdewdewddqwdqwddewdeqqwdqwd dddwedewdeewdewdewqwdqqwdddddwdwqdqwwdqwdwqwddewdwedededewdddddddcsfewfefewcsddwedwecdweddewdewdewdewdwdewdxddewwedweddwedwedewdewwedewdewdampqwswedewdewqswqqwdqwdqdle in one qwdewdewedwedwewdqwwqd:ddewdewdewd
-dewdewdwedewdewdwedewwedwedwewefewfwdedwedwededewddwedewd
+dewdewdwedewdewdwedewwedwedwewefewfwdedwedwededewddwedewddwedwedwe
 ```shelldwedewdew
 npm install && npm start
 ```
