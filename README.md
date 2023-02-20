@@ -17,7 +17,7 @@ If no tab is open, navigate to [http://localhost:3000](http://localhost:3000).
 
 Running WunderGraph will automatically introspect the data-source and generate an API for you.
 You can add more Operations (e.g. Queridascasces or Mutations) by adding more "\*.graphql" files to the directory `./wundergraph/operations`.
-Each file becomes an Operation. The Operation name is not relevant, the file name is.
+Each file becomes an Operation. The Operatiodewdewn name is not relevant, the file name is.
 
 ## Learn More
 
