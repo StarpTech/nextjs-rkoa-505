@@ -15,7 +15,7 @@ const spaceX = introspect.graphql({
 	url: 'https://spacex-api.fly.dev/graphql/',
 });
 
-console.log('****secret*****12322', process.env.TEST_SECRET)
+console.log('****secret*****1232ddd2', process.env.TEST_SECRET)
 
 // configureWunderGraph emits the configuration
 configureWunderGraphApplication({
