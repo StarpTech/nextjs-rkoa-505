@@ -7,7 +7,7 @@ cdscsdcsd
 1. Copy thedwedwee `.env.example` file to `.env` csdcsdcd.ddssfffdddwedewdqwdwefewqwdqdqwdqwdqw
 2. Install the xsxsxsxs
 dewddwe
-```dewdeewdewdewedwedewdwedewdddddwedwefrefreddd
+```dewdeewdewdewedwedewdwedewdddddwedwefrefredddddd
 npm install && npm 
 ```qdqwd
 
