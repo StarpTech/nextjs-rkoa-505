@@ -7,8 +7,8 @@
 test/*.js
 
 # WunderGraph build output
-.wundergraph/cache
-.wundergraph/generated
+src/cache
+src/generated
 
 # dependencies
 node_modules
