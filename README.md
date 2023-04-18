@@ -4,7 +4,7 @@ This example demonstrates how to use WunderGraph with Next.js. We are going to m
 
 ## Getting Started
 cdscsdcsd
-1. Copy thedwedwee `.env.example` file to `.env` csdcsdcd.ddssfffdddwedewdqwdwefewqwdqdqwdqwdqw
+1. Copy thedwedwee `.env.example` file to `.env` csdcsddddcd.ddssfffdddwedewdqwdwefewqwdqdqwdqwdqw
 2. Install the xsxsxsxs
 dewddwe
 ```d
