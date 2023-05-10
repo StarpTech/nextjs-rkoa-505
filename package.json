@@ -9,7 +9,6 @@
     "build:wundergraph": "wunderctl generate --wundergraph-dir src --debug",
     "build:next": "next build",
     "dev": "next dev",
-    "check": "tsc --noEmit sss",
     "test": "jest"
   },
   "dependencies": {
