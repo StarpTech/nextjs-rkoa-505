@@ -49,9 +49,9 @@ export interface AuthProvider {
 }
 
 export const defaultClientConfig: ClientConfig = {
-	applicationHash: "6efe5485",
+	applicationHash: "f52d6f56",
 	baseURL: "http://localhost:9991",
-	sdkVersion: "0.144.5",
+	sdkVersion: "0.155.0",
 };
 
 export const operationMetadata: OperationMetadata = {
@@ -94,9 +94,9 @@ export class WunderGraphClient extends Client {
 		options: OperationName extends string
 			? SubscriptionRequestOptions<OperationName, Input>
 			: SubscriptionRequestOptions,
-		cb: SubscriptionEventHandler<Response["data"], Response["error"]>
+		cb?: SubscriptionEventHandler<Response["data"], Response["error"]>
 	) {
-		return super.subscribe(options, cb);
+		return super.subscribe<OperationRequestOptions, Response["data"], Response["error"]>(options, cb);
 	}
 	public login(authProviderID: Operations["authProvider"], redirectURI?: string) {
 		return super.login(authProviderID, redirectURI);

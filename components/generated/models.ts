@@ -17,15 +17,15 @@ export type UsersSubscribeInput = ExtractInput<typeof function_UsersSubscribe>;
 
 export type UsersUpdateInput = ExtractInput<typeof function_UsersUpdate>;
 
-export interface InternalUsersGetInput {
+export interface UsersGetInputInternal {
 	id: string;
 }
 
-export interface InternalUsersSubscribeInput {
+export interface UsersSubscribeInputInternal {
 	id: string;
 }
 
-export interface InternalUsersUpdateInput {
+export interface UsersUpdateInputInternal {
 	id: string;
 	name: string;
 	bio: string;
