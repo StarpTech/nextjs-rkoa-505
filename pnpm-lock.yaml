@@ -3,7 +3,7 @@ lockfileVersion: '6.0'
 dependencies:
   '@wundergraph/nextjs':
     specifier: ^0.10.6
-    version: 0.10.6(@wundergraph/sdk@0.155.0)(next@13.4.2)(react-dom@18.2.0)(react@18.2.0)(swr@2.0.3)
+    version: 0.10.6(@wundergraph/sdk@0.155.0)(next@13.4.2)(react-dom@18.2.0)(react@18.2.0)(swr@2.1.5)
   '@wundergraph/sdk':
     specifier: ^0.155.0
     version: 0.155.0(@graphql-mesh/store@0.9.20)(react-native@0.71.8)
@@ -20,8 +20,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   swr:
-    specifier: ^2.0.0
-    version: 2.0.3(react@18.2.0)
+    specifier: ^2.1.5
+    version: 2.1.5(react@18.2.0)
 
 devDependencies:
   '@jest/globals':
@@ -2894,7 +2894,7 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@wundergraph/nextjs@0.10.6(@wundergraph/sdk@0.155.0)(next@13.4.2)(react-dom@18.2.0)(react@18.2.0)(swr@2.0.3):
+  /@wundergraph/nextjs@0.10.6(@wundergraph/sdk@0.155.0)(next@13.4.2)(react-dom@18.2.0)(react@18.2.0)(swr@2.1.5):
     resolution: {integrity: sha512-GmAEcG9qPSeuoIrqVFnczzB56MbWaAtfAN+MPCxLisHgE0R57RaPRjHODsZ1WzKWkfCcXenjT55Fzulj6dwPKw==}
     peerDependencies:
       '@wundergraph/sdk': '>=0.91.0'
@@ -2905,14 +2905,14 @@ packages:
     dependencies:
       '@wundergraph/protobuf': 0.107.0
       '@wundergraph/sdk': 0.155.0(@graphql-mesh/store@0.9.20)(react-native@0.71.8)
-      '@wundergraph/swr': 0.14.10(@wundergraph/sdk@0.155.0)(react-dom@18.2.0)(react@18.2.0)(swr@2.0.3)
+      '@wundergraph/swr': 0.14.10(@wundergraph/sdk@0.155.0)(react-dom@18.2.0)(react@18.2.0)(swr@2.1.5)
       handlebars: 4.7.7
       next: 13.4.2(@babel/core@7.20.12)(react-dom@18.2.0)(react@18.2.0)
       object-hash: 2.2.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-ssr-prepass: 1.5.0(react@18.2.0)
-      swr: 2.0.3(react@18.2.0)
+      swr: 2.1.5(react@18.2.0)
     dev: false
 
   /@wundergraph/protobuf@0.107.0:
@@ -3004,7 +3004,7 @@ packages:
       - supports-color
     dev: false
 
-  /@wundergraph/swr@0.14.10(@wundergraph/sdk@0.155.0)(react-dom@18.2.0)(react@18.2.0)(swr@2.0.3):
+  /@wundergraph/swr@0.14.10(@wundergraph/sdk@0.155.0)(react-dom@18.2.0)(react@18.2.0)(swr@2.1.5):
     resolution: {integrity: sha512-uflKL8ApqXPA2GSJn/w38D2OzJm6khUketRGR3oxSBxgUsMogxmT3OaaqUzetXsTzsCJmWFSxuJ9xjZhbezS5Q==}
     peerDependencies:
       '@wundergraph/sdk': '>=0.110.0'
@@ -3016,7 +3016,7 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-ssr-prepass: 1.5.0(react@18.2.0)
-      swr: 2.0.3(react@18.2.0)
+      swr: 2.1.5(react@18.2.0)
     dev: false
 
   /@wundergraph/wunderctl@0.149.0:
@@ -8672,9 +8672,8 @@ packages:
       - encoding
     dev: false
 
-  /swr@2.0.3(react@18.2.0):
-    resolution: {integrity: sha512-sGvQDok/AHEWTPfhUWXEHBVEXmgGnuahyhmRQbjl9XBYxT/MSlAzvXEKQpyM++bMPaI52vcWS2HiKNaW7+9OFw==}
-    engines: {pnpm: '7'}
+  /swr@2.1.5(react@18.2.0):
+    resolution: {integrity: sha512-/OhfZMcEpuz77KavXST5q6XE9nrOBOVcBLWjMT+oAE/kQHyE3PASrevXCtQDZ8aamntOfFkbVJp7Il9tNBQWrw==}
     peerDependencies:
       react: ^16.11.0 || ^17.0.0 || ^18.0.0
     dependencies:
