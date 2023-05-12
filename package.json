@@ -13,7 +13,7 @@
     "@wundergraph/nextjs": "^0.10.6",
     "@wundergraph/sdk": "^0.155.0",
     "graphql": "^16.3.0",
-    "next": "^13.1.1",
+    "next": "^13.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "swr": "^2.0.0"
