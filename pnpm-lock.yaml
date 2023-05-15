@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@wundergraph/nextjs':
-    specifier: ^0.10.6
-    version: 0.10.6(@wundergraph/sdk@0.155.0)(next@13.4.2)(react-dom@18.2.0)(react@18.2.0)(swr@2.1.5)
+    specifier: ^0.10.25
+    version: 0.10.25(@wundergraph/sdk@0.155.0)(next@13.4.2)(react-dom@18.2.0)(react@18.2.0)(swr@2.1.5)
   '@wundergraph/sdk':
     specifier: ^0.155.0
     version: 0.155.0(@graphql-mesh/store@0.9.20)(react-native@0.71.8)
@@ -2894,8 +2894,8 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@wundergraph/nextjs@0.10.6(@wundergraph/sdk@0.155.0)(next@13.4.2)(react-dom@18.2.0)(react@18.2.0)(swr@2.1.5):
-    resolution: {integrity: sha512-GmAEcG9qPSeuoIrqVFnczzB56MbWaAtfAN+MPCxLisHgE0R57RaPRjHODsZ1WzKWkfCcXenjT55Fzulj6dwPKw==}
+  /@wundergraph/nextjs@0.10.25(@wundergraph/sdk@0.155.0)(next@13.4.2)(react-dom@18.2.0)(react@18.2.0)(swr@2.1.5):
+    resolution: {integrity: sha512-Eu3MRc1G1who2zKqa+Nkq9zVxT3bARreIHvqY3Lnh0KUh1IBLt4+ouH+AaMySI7+HtMVU/ELi84ivc16HJK39A==}
     peerDependencies:
       '@wundergraph/sdk': '>=0.91.0'
       next: ^12.1.0 || ^13.0.0
@@ -2903,9 +2903,9 @@ packages:
       react-dom: ^16.8.0 || ^17.0.2 || ^18.0.0
       swr: ^2.0.0
     dependencies:
-      '@wundergraph/protobuf': 0.107.0
+      '@wundergraph/protobuf': 0.110.0
       '@wundergraph/sdk': 0.155.0(@graphql-mesh/store@0.9.20)(react-native@0.71.8)
-      '@wundergraph/swr': 0.14.10(@wundergraph/sdk@0.155.0)(react-dom@18.2.0)(react@18.2.0)(swr@2.1.5)
+      '@wundergraph/swr': 0.14.29(@wundergraph/sdk@0.155.0)(react-dom@18.2.0)(react@18.2.0)(swr@2.1.5)
       handlebars: 4.7.7
       next: 13.4.2(@babel/core@7.20.12)(react-dom@18.2.0)(react@18.2.0)
       object-hash: 2.2.0
@@ -2913,14 +2913,6 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
       react-ssr-prepass: 1.5.0(react@18.2.0)
       swr: 2.1.5(react@18.2.0)
-    dev: false
-
-  /@wundergraph/protobuf@0.107.0:
-    resolution: {integrity: sha512-bLKuX4WFXxwAJzwWPki1UB/QeXPD5zWRf8eoYGt2vH7bzTIx1T2lbXxKBHbafksAbkiRXmG5y7uo6aPDG/gGQw==}
-    dependencies:
-      long: 5.2.1
-      protobufjs: 6.11.3
-      ts-proto: 1.139.0
     dev: false
 
   /@wundergraph/protobuf@0.110.0:
@@ -3004,8 +2996,8 @@ packages:
       - supports-color
     dev: false
 
-  /@wundergraph/swr@0.14.10(@wundergraph/sdk@0.155.0)(react-dom@18.2.0)(react@18.2.0)(swr@2.1.5):
-    resolution: {integrity: sha512-uflKL8ApqXPA2GSJn/w38D2OzJm6khUketRGR3oxSBxgUsMogxmT3OaaqUzetXsTzsCJmWFSxuJ9xjZhbezS5Q==}
+  /@wundergraph/swr@0.14.29(@wundergraph/sdk@0.155.0)(react-dom@18.2.0)(react@18.2.0)(swr@2.1.5):
+    resolution: {integrity: sha512-NM8wnfvnvo/X7Fr1s1qZ+C6Ht2YlosOthQBcjbj6vU/XWvcf0H2+hHfdHjX0f1rsg9LNnxQe+uiZapYeF1ai2g==}
     peerDependencies:
       '@wundergraph/sdk': '>=0.110.0'
       react: ^16.8.0 || ^17.0.2 || ^18.0.0

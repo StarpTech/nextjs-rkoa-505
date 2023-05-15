@@ -11,7 +11,7 @@ dewddwe
 npm install && npm 
 ```qdqwd
 
-After a while, a new brodewdwedfwefwfwser tab will open,dqwdqwd
+After a while, a new brodewdwedfwefwfwser tab will open,dqwdqwdssssewdewdew
 and you can start exploring the application.
 If no tab is open, navigate to [http://localhost:3000](http://localhost:3000).
 
